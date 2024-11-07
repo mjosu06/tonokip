@@ -238,7 +238,7 @@
 ****************************************************************************************/
 #elif MOTHERBOARD == 4
 #ifndef __AVR_ATmega328P__
-#error Oops!  Make sure you have 'Arduino Duemilanove w/ ATMega328' selected from the 'Tools -> Boards' menu.
+//#error Oops!  Make sure you have 'Arduino Duemilanove w/ ATMega328' selected from the 'Tools -> Boards' menu.
 #endif
 
 #define X_STEP_PIN         2
@@ -255,21 +255,21 @@
 
 #define Z_STEP_PIN          4
 #define Z_DIR_PIN           7
-#define Z_ENABLE_PIN        
-#define Z_MIN_PIN           4
+#define Z_ENABLE_PIN        X_ENABLE_PIN
+#define Z_MIN_PIN           11
 #define Z_MAX_PIN          -1
 
-#define E_STEP_PIN         11
-#define E_DIR_PIN          12
-#define E_ENABLE_PIN       -1
+#define E_STEP_PIN         12
+#define E_DIR_PIN          13
+#define E_ENABLE_PIN       X_ENABLE_PIN
 
 #define LED_PIN            -1
-#define FAN_PIN             5
+#define FAN_PIN            -1
 #define PS_ON_PIN          -1
 #define KILL_PIN           -1
 
-#define HEATER_0_PIN        6
-#define TEMP_0_PIN          0    // MUST USE ANALOG INPUT NUMBERING NOT DIGITAL OUTPUT NUMBERING!!!!!!!!!
+#define HEATER_0_PIN        A1
+#define TEMP_0_PIN          3    // MUST USE ANALOG INPUT NUMBERING NOT DIGITAL OUTPUT NUMBERING!!!!!!!!!
 
 
 
