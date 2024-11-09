@@ -18,7 +18,7 @@ float x_steps_per_unit = 105.52;
 float y_steps_per_unit = 105.52;
 float z_steps_per_unit = 105.52;
 float e_steps_per_unit = 117.25;
-float max_feedrate = 3000;
+float max_feedrate = 300;
 
 //For Inverting Stepper Enable Pins (Active Low) use 0, Non Inverting (Active High) use 1
 const bool X_ENABLE_ON = 0;

@@ -269,7 +269,7 @@
 #define KILL_PIN           -1
 
 #define HEATER_0_PIN        A1
-#define TEMP_0_PIN          3    // MUST USE ANALOG INPUT NUMBERING NOT DIGITAL OUTPUT NUMBERING!!!!!!!!!
+#define TEMP_0_PIN          A3    // MUST USE ANALOG INPUT NUMBERING NOT DIGITAL OUTPUT NUMBERING!!!!!!!!!
 
 
 
